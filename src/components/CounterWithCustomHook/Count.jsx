@@ -5,7 +5,7 @@ import { CartContext } from "../CartShop/CartShop";
 
 const Counter = (id, price) => {
   const { counter, increment, decrement } = useCount();
-  const [cart, setCart] = useContext(CartContext);
+  const {cart, setCart} = useContext(CartContext);
 
   const addToCart = () => {
     setCart((currentItems) => {
