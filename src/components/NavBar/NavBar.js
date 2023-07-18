@@ -19,8 +19,8 @@ const styles = {
 };
 
 const NavBar = () => {
-  // const [items] = useContext(CartContext);
-  const [cart, setCart] = useContext(CartContext);
+  const { cart, setCart } = useContext(CartContext);
+  // const [cart, setCart] = useContext(CartContext);
 
   const quantity = cart.reduce((acc, current) => {
     return acc + current.quantity;
