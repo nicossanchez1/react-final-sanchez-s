@@ -1,0 +1,77 @@
+/* [
+  {
+    "id": 1,
+    "category": "Aceites",
+    "name": "castrol",
+    "description": "Maxima calidad y rendimiento",
+    "stock": 10,
+    "image": "./images/castrol-edge.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Aceites",
+    "name": "gulf",
+    "description": "description",
+    "stock": 10,
+    "image": "/images/Aceite.jpg"
+  },
+  {
+    "id": 3,
+    "category": "Aceites",
+    "name": "motul",
+    "description": "description",
+    "stock": 10,
+    "image": "/images/hidraulica.jpg"
+  },
+
+  {
+    "id": 1,
+    "category": "Filtros",
+    "name": "Man",
+    "description": "description",
+    "stock": 10,
+    "image": "/images/man.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Filtros",
+    "name": "Fram",
+    "description": "description",
+    "stock": 10,
+    "image": "/images/fram.jpg"
+  },
+  {
+    "id": 3,
+    "category": "Filtros",
+    "name": "Vinto",
+    "description": "description",
+    "stock": 10,
+    "image": "/images/vinto.jpg"
+  },
+
+  {
+    "id": 1,
+    "category": "Repuestos",
+    "name": "repuesto",
+    "description": "description",
+    "stock": 10,
+    "image": "/images/amortiguador.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Repuestos",
+    "name": "repuesto",
+    "description": "description",
+    "stock": 10,
+    "image": "/images/neuma.png"
+  },
+  {
+    "id": 3,
+    "category": "Repuestos",
+    "name": "repuesto",
+    "description": "description",
+    "stock": 10,
+    "image": "/images/disco.jpg"
+  }
+]
+ */

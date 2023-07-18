@@ -1,0 +1,20 @@
+.botonCantidad {
+    padding: 10rem 0 0 1rem;
+    margin: 0;
+    overflow: hidden;
+}
+
+.botonIncrement {
+  display: flex;
+  justify-content: space-around;
+}
+
+.botonMas {
+  width: 15%;
+}
+.botonMenos {
+  width: 15%;
+}
+.botonReset {
+  width: 35%;
+}
