@@ -4,7 +4,7 @@ import { db } from "../../../firebase/firebaseConfig";
 import { collection, query, getDocs, where, documentId } from "firebase/firestore";
 import Cards from "../../cards/Cards";
 import Aside from "../../aside/aside";
-// import Counter from "../../CounterWithCustomHook/Count";
+import Counter from "../../CounterWithCustomHook/Count";
 
 const ItemDetailContainer = () => {
   const { id } = useParams();
@@ -33,9 +33,8 @@ const ItemDetailContainer = () => {
           {productsData.map((auto) => {
             return (
               <div key={auto.id} style={{ display: "flex", justifyContent: "center", margin: 0, width: 1080, padding: 100 }}>
-                <Cards auto={auto}
-                >
-                </Cards>
+                <Cards auto={auto}></Cards>
+                <Counter auto={auto}  />
               </div>
             );
           })}

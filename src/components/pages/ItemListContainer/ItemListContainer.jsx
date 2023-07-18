@@ -12,7 +12,6 @@ function ItemListContainer() {
   const [products, setProducts] = useState([]);
   console.clear();
   console.log("productos", products);
-
   useEffect(() => {
     const getProducts = async () => {
       const q = query(collection(db, "products"));
@@ -25,7 +24,6 @@ function ItemListContainer() {
       setProducts(docs);
     };
     getProducts();
-
   }, []);
   return (
     <div className="wrapper">
@@ -51,5 +49,3 @@ function ItemListContainer() {
 }
 
 export default ItemListContainer;
-
-// <Counter />

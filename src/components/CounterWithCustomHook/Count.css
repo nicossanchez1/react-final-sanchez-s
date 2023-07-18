@@ -1,12 +1,7 @@
 .botonCantidad {
-    padding: 10rem 0 0 1rem;
-    margin: 0;
-    overflow: hidden;
-}
-
-.botonIncrement {
-  display: flex;
-  justify-content: space-around;
+  padding: 10rem 0 0 1rem;
+  margin: 0;
+  overflow: hidden;
 }
 
 .botonMas {
@@ -17,4 +12,8 @@
 }
 .botonReset {
   width: 35%;
+}
+.botonAgregar {
+  width: 85%;
+  background-color: white;
 }

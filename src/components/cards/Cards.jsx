@@ -5,7 +5,6 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea, CardActions } from "@mui/material";
-import Counter from "../CounterWithCustomHook/Count";
 
 const Cards = ({ auto }) => {
   return (
@@ -28,9 +27,8 @@ const Cards = ({ auto }) => {
       {/* BOTON COUNT */}
 
       <CardActions className="center">
-        <Counter />
       </CardActions>
-    </Card>
+      </Card>
   );
 };
 

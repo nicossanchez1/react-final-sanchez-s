@@ -10,10 +10,6 @@ import { Link } from "react-router-dom";
 const Category = () => {
   const { category } = useParams();
   const [categoryProducts, setCategoryProducts] = useState([]);
-
-
-  console.log("filtro categoria", categoryProducts);
-
   useEffect(() => {
     const getProducts = async () => {
       const q = query(
@@ -27,8 +23,6 @@ const Category = () => {
       });
       setCategoryProducts(docs);
     };
-
-    // Resetea el estado cuando cambia la categoría
     setCategoryProducts([]);
     getProducts();
   }, [category]);
